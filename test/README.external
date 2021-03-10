@@ -15,7 +15,7 @@ source code into an appropriate directory. This can be done in two ways:
 
 1) Separately from the OpenSSL checkout using:
 
-  $ git clone https://boringssl.googlesource.com/boringssl boringssl
+  $ git clone git@github.com:google/boringssl.git boringssl
 
   The BoringSSL tests are only confirmed to work at a specific commit in the
   BoringSSL repository. Later commits may or may not pass the test suite:
